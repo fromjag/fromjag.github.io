@@ -9,7 +9,7 @@ const projects = [
         title: "Project Two",
         description: "Extensión de navegador que registra todo lo que necesitas",
         technologies: ["JavaScript", "Browser Extension"],
-        type: "browser"
+        type: "extension"
     },
     {
         title: "Project Three",
