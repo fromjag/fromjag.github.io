@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="nav-menu">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#education" class="nav-link">Education</a>
+    </nav>
+
+    <div id="app"></div>
+
+    <script type="module">
+        import personalInfo from './config/personal.js';
+        import about from './config/about.js';
+        import experience from './config/experience.js';
+        import projects from './config/projects.js';
+        import skills from './config/skills.js';
+        import education from './config/education.js';
+        
+        // Render personal info
+        document.getElementById('app').innerHTML = `
+            <header>
+                <div class="header-content">
+                    <h1>${personalInfo.name}</h1>
+                    <p class="subtitle">${personalInfo.title}</p>
+                    <p class="location">${personalInfo.location}</p>
+                    <!-- Social links -->
+                    <div class="social-links">...</div>
+                </div>
+                <img src="/api/placeholder/100/100" alt="Profile" class="profile-img">
+            </header>
+
+            <!-- About -->
+            <section id="about">...</section>
+
+            <!-- Experience -->
+            <section id="experience">...</section>
+
+            <!-- Projects -->
+            <section id="projects">...</section>
+
+            <!-- Skills -->
+            <section id="skills">...</section>
+
+            <!-- Education -->
+            <section id="education">...</section>
+        `;
+    </script>
+</body>
+</html>
