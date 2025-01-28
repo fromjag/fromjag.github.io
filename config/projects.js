@@ -3,7 +3,7 @@ const projects = [
         title: "Project One",
         description: "Una plataforma para construir y hacer crecer tu negocio online",
         technologies: ["React", "Node.js", "GraphQL"],
-        type: "app" // Esto determina el icono: web, mobile, o api
+        type: "mobile" // Esto determina el icono: web, mobile, o api
     },
     {
         title: "Project Two",
