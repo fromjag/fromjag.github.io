@@ -1,4 +1,3 @@
-// Añade o modifica trabajos en el array
 const experience = [
     {
         company: "TechCorp",

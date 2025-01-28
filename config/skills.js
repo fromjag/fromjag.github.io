@@ -1,6 +1,5 @@
-// Añade o modifica habilidades en el array
 const skills = [
-    "JavaScript",
+    "Python",
     "TypeScript",
     "React",
     "Node.js",
