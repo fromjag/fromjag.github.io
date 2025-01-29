@@ -5,7 +5,7 @@ const experience = [
         period: "Oct 2022 - Jul 2023",
         description: "Implementation of a low-cost embedded system for quality control. Development of software and hardware. Installed and operational on the production line, inspecting over 700 cars per day, achieving more than 97% accuracy.",
         technologies: ["Python", "TensorFlow", "Computer Vision", "Embedded Systems"],
-        logo: "/resources/logos/opel.webp"
+        logo: "/resources/logos/opel.png"
     },
     {
         company: "CNH Industrial",
