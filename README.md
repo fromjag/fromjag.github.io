@@ -1,6 +1,6 @@
 # Joaquin Ariño - Personal Portfolio
 
-My personal portfolio website ,featuring my work experience, projects, and skills in machine learning and software development. You can visit it at [fromjag.github.io](https://fromjag.github.io).
+My personal portfolio website, featuring my work experience, projects, and skills in machine learning and software development. You can visit it at [fromjag.github.io](https://fromjag.github.io).
 
 ## Want to use this template?
 
