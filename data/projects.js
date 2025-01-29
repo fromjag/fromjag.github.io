@@ -17,7 +17,7 @@ const projects = [
         title: "Portfolio Template",
         description: "Open source modern portfolio template for devs - just edit the information and deploy. The one used here!",
         technologies: ["JavaScript", "HTML", "CSS"],
-        link: "https://github.com/fromjag/TabSaverExtension",
+        link: "https://github.com/fromjag/DeveloperPortfolioTemplate",
         logo: "/resources/icons/web.png"
     }
 ];
