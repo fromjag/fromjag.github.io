@@ -1,21 +1,24 @@
 const projects = [
     {
-        title: "Project One",
-        description: "Una plataforma para construir y hacer crecer tu negocio online",
-        technologies: ["React", "Node.js", "GraphQL"],
-        type: "mobile" // Esto determina el icono: web, mobile, o api
+        title: "Peak Timer: IOS App",
+        description: "Customizable workout timer app for iOS. Available in the App Store.",
+        technologies: ["Dart", "Flutter", "Swift"],
+        link: "https://fromjag.github.io/PeakTimer/", 
+        logo: "/resources/logos/peaktimer.png" 
     },
     {
-        title: "Project Two",
-        description: "Extensión de navegador que registra todo lo que necesitas",
-        technologies: ["JavaScript", "Browser Extension"],
-        type: "extension"
+        title: "Tab Saver",
+        description: "Tab Saver is a open source Chrome extension that helps you save your open tabs for quick access later.",
+        technologies: ["JavaScript", "HTML"],
+        link: "https://github.com/fromjag/TabSaverExtension",
+        logo: "/resources/logos/tabmanager.png"
     },
     {
-        title: "Project Three",
-        description: "Sitio web personal y blog construido con Next.js",
-        technologies: ["Next.js", "MDX"],
-        type: "web"
+        title: "Portfolio Template",
+        description: "Tab Saver is a simple Chrome extension that helps you save your open tabs for quick access later.",
+        technologies: ["JavaScript", "HTML", "CSS"],
+        link: "https://github.com/fromjag/TabSaverExtension",
+        logo: "/resources/logos/web.png"
     }
 ];
 

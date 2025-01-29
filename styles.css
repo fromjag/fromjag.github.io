@@ -20,6 +20,53 @@ body {
     background: #fff;
 }
 
+.email-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.email-card {
+    background: white;
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.email-text {
+    font-size: 1rem;
+    color: #2d3748;
+}
+
+.copy-button {
+    background: none;
+    border: none;
+    padding: 0.25rem;
+    cursor: pointer;
+    color: #4a5568;
+    display: flex;
+    align-items: center;
+    transition: color 0.2s;
+}
+
+.copy-button:hover {
+    color: #2d3748;
+}
+
+.copy-button.copied {
+    color: #48bb78;
+}
+
 /* Navegación */
 .nav-menu {
     display: flex;
@@ -72,10 +119,10 @@ header {
 }
 
 .profile-img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    margin-left: 2rem;
+    width: 140px; 
+    height: auto;
+    max-height: 1500px; 
+    object-fit: cover; 
 }
 
 h1 {
@@ -111,31 +158,138 @@ h1 {
     color: #000;
 }
 
+
 /* Experiencia y educación */
 .experience-item {
-    margin-bottom: 1.5rem;
+    margin-bottom: 2.5rem;
 }
 
 .experience-header {
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 0.5rem;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 1rem;
 }
 
-.company {
-    font-weight: 600;
+.experience-logo img {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+    border-radius: 4px;
+}
+
+.experience-main {
+    flex: 1;
+}
+
+.experience-title-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 0.25rem;
 }
 
 .position {
-    font-weight: 500;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.company {
+    color: #666;
+    font-size: 1rem;
     margin-bottom: 0.5rem;
 }
 
-.date {
-    color: #666;
+.description {
+    margin-bottom: 1rem;
+    padding-left: calc(48px + 1rem);
 }
 
+.experience-skills {
+    padding-left: calc(48px + 1rem);
+}
+
+/* Educación */
+.education-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.education-logo {
+    flex-shrink: 0;
+}
+
+.education-logo img {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+    border-radius: 4px;
+}
+
+.education-content {
+    flex: 1;
+}
+
+.education-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 0.25rem;
+}
+
+.degree {
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.institution {
+    color: #666;
+    font-size: 0.9rem;
+    margin-top: 0.25rem;
+}
+
+.education-header .date {
+    color: #666;
+    font-size: 0.85rem;
+    white-space: nowrap;
+    margin-left: 1rem;
+}
+
+
+
+
+
 /* Proyectos */
+
+.project-card {
+    border: 1px solid #eee;
+    padding: 1rem;
+    border-radius: 8px;
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.2s ease;
+    display: block;
+}
+
+.project-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border-color: #ddd;
+}
+
+.project-icon {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+
+.project-description {
+    margin-bottom: 1rem;  
+}
+
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));

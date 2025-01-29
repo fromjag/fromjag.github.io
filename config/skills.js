@@ -1,10 +1,12 @@
 const skills = [
     "Python",
-    "TypeScript",
-    "React",
-    "Node.js",
-    "GraphQL",
-    "PostgreSQL"
+    "PyTorch",
+    "TensorFlow",
+    "MySQL",
+    "Linux",
+    "Computer Vision",
+    "Machine Learning",
+    "C++",
 ];
 
 export default skills;

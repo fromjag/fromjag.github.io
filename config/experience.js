@@ -1,17 +1,19 @@
 const experience = [
     {
-        company: "TechCorp",
-        position: "Senior Full Stack Developer",
-        period: "2021 - Present",
-        description: "Implementación de nuevas características, liderazgo de equipo, mejora de la arquitectura del sistema.",
-        technologies: ["React", "TypeScript", "Node.js", "GraphQL"]
+        company: "Stellantis (Opel)",
+        position: "Machine Learning Engineer Intern",
+        period: "Oct 2022 - Jul 2023",
+        description: "Implementation of a low-cost embedded system for quality control. Development of software and hardware. Installed and operational on the production line, inspecting over 700 cars per day, achieving more than 97% accuracy.",
+        technologies: ["Python", "TensorFlow", "Computer Vision", "Embedded Systems"],
+        logo: "/resources/logos/opel.webp"
     },
     {
-        company: "StartupX",
-        position: "Full Stack Developer",
-        period: "2018 - 2021",
-        description: "Desarrollo de aplicaciones web escalables, implementación de APIs REST, optimización de rendimiento.",
-        technologies: ["JavaScript", "React", "Node.js", "MongoDB"]
+        company: "CNH Industrial",
+        position: "Master's Thesis",
+        period: "Jan 2024 - Sep 2024",
+        description: "Development of computer vision models to optimize efficiency in crop harvesting, including data preprocessing, labeling, training, and fine-tuning of models. Models tested during the actual harvest process, achieving over 95% accuracy.",
+        technologies: ["Python", "PyTorch", "Computer Vision", "Data Preprocessing", "Deep Learning"],
+        logo: "/resources/logos/cnh.jpg"
     }
 ];
 

@@ -3,12 +3,10 @@ const personalInfo = {
     title: "AI Engineer",
     location: "Zaragoza, Spain",
     email: "joaquinarinog@gmail.com",
-    phone: "",
     links: {
-        github: "https://github.com/tuusuario",
-        linkedin: "www.linkedin.com/in/joaquin-arino",
-        twitter: "",
-        cv: ""  // Ruta a tu CV
+        github: "https://github.com/fromjag",
+        linkedin: "https://www.linkedin.com/in/joaquin-arino",
+        cv: "resources/cv/Joaquin_Arino_CV.pdf"  
     }
 };
 
