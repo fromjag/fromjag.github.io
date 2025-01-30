@@ -14,6 +14,13 @@ const projects = [
         logo: "/resources/icons/tabmanager.png"
     },
     {
+        title: "Block Site",
+        description: "Site Blocker is a open source Chrome extension that helps you block websites based on two modes: permanent blocking and focus mode.",
+        technologies: ["JavaScript", "HTML"],
+        link: "https://github.com/fromjag/SiteBlockerExtension",
+        logo: "/resources/icons/SiteBlockerIcon.png"
+    },
+    {
         title: "Portfolio Template",
         description: "Open source modern portfolio template for devs - just edit the information and deploy. The one used here!",
         technologies: ["JavaScript", "HTML", "CSS"],
