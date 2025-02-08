@@ -5,6 +5,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="/resources/favicon/favicon.png">
     <link rel="stylesheet" href="styles.css">
+    <style>
+        header {
+            text-align: center;
+            padding: 2rem 1rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .header-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.5rem;
+            width: 100%;
+        }
+
+        .header-content h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        .subtitle {
+            margin: 0.5rem 0;
+            font-size: 1.25rem;
+            color: var(--text-secondary);
+        }
+
+        .location {
+            margin: 0.25rem 0;
+            color: var(--text-secondary);
+        }
+
+        .social-links {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            margin-top: 1rem;
+        }
+
+        @media (max-width: 768px) {
+            header {
+                padding: 1.5rem 1rem;
+            }
+
+            .header-content h1 {
+                font-size: 2rem;
+            }
+
+            .subtitle {
+                font-size: 1.1rem;
+            }
+
+            .social-links {
+                flex-wrap: wrap;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .header-content h1 {
+                font-size: 1.75rem;
+            }
+        }
+    </style>
 </head>
 <body>
     <nav class="nav-menu">
@@ -90,7 +153,6 @@
                     <p class="location">${personalInfo.location}</p>
                     ${getSocialLinks()}
                 </div>
-                <img src="resources/profileimage/profileimage.png" alt="Profile" class="profile-img">
             </header>
 
             <section id="about">
