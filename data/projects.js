@@ -3,7 +3,7 @@ const projects = [
         title: "Codenames CV",
         description: "A real-time computer vision system that assists in playing Codenames board game by detecting and tracking card states using object detection and OCR.",
         technologies: ["Python", "PyTorch", "OpenCV", "YOLO", "OCR", "Docker"],
-        link: "https://github.com/[your-username]/CodenamesRealTimeBoardDetectorCV",
+        link: "https://github.com/fromjag/CodenamesRealTimeBoardDetectorCV",
         logo: "/resources/icons/codenames.jpg" 
     },
     {
